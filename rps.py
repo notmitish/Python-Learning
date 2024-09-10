@@ -13,7 +13,7 @@ class RockPaperScissors:
 
         if user_choice not in rpc:
             print("Invalid Input: " + user_choice)
-            RockPaperScissors.play_game()  # Restart the game if input is invalid
+            RockPaperScissors.play_game()
             return         
 
         print("User chose:", user_choice)
