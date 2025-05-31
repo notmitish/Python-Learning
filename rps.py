@@ -10,7 +10,7 @@ class RockPaperScissors:
     
     def get_player_choice(self):
         choice = input("Enter your choice (rock, paper, or scissors): ").lower()
-        while choice not in self.choices:
+        if choice not in self.choices:
             choice = input("Invalid choice. Please enter rock, paper, or scissors: ").lower()
         return choice
 
